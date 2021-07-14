@@ -5,6 +5,18 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+}
+nav div{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left a, .nav-right a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
 }
 main{
     display: flex;
